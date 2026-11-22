@@ -16,6 +16,10 @@
 
 # Terraform Provider for [Coolify](https://coolify.io/) _v4_
 
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+
 _This project is a community-driven initiative and is not affiliated with or an official product of Coolify._
 
 Documentation: https://registry.terraform.io/providers/SierraJC/coolify/latest/docs
@@ -40,11 +44,11 @@ Before you begin using the Coolify Terraform Provider, ensure you have completed
 
 | Feature                    | Resource | Data Source |
 | -------------------------- | -------- | ----------- |
-| Teams                      | ⛔       | ️✔️         |
+| Teams                      | ⛔       | ️✔️          |
 | Private Keys               | ✔️       | ✔️          |
-| Servers                    | ✔️       | ️✔️         |
-| - Server Resources         |          | ️✔️         |
-| - Server Domains           |          | ️✔️         |
+| Servers                    | ✔️       | ️✔️          |
+| - Server Resources         |          | ️✔️          |
+| - Server Domains           |          | ️✔️          |
 | Destinations               | ⛔       | ⛔          |
 | Projects                   | ✔️       | ✔️          |
 | - Project Environments     | ⛔       | ⛔          |
@@ -66,3 +70,15 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Repository reference
+
+| Path                                 | Purpose                      |
+| ------------------------------------ | ---------------------------- |
+| [`docs/`](docs/)                     | Usage and development guides |
+| [`examples/`](examples/)             | Project reference            |
+| [`internal/`](internal/)             | Internal Go packages         |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution guidelines      |
+
+The default branch is `main`. Use the tracked manifests and scripts above
+when preparing changes; keep local credentials and generated files out of commits.
